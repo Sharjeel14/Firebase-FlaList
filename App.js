@@ -60,32 +60,7 @@ export default class App extends React.Component {
             </View>
           )}
         />
-
-
-{/* <SectionList
-
-        sections={this.state.arrayFlatList}
-        renderItem={({ item, section }) =>
-          <View>
-            <Text>ID: {item.id}</Text>
-              <Text>Name: {item.name}</Text>
-              <Text>Roll Number: {item.rollno}</Text>
-              <Text>Claas: {item.class}</Text>
-              <Text>Department: {item.dept}</Text>
-              <Text>CGPA: {item.cgpa}</Text>
-          </View>
-        }
-
-        renderSectionHeader={({ section }) => <Text style={styles.section}>{section.name}</Text>}
-        keyExtractor={(item, index) => index}
-      /> */}
-
-
-
-
-
-
-      </View >
+    </View >
     );
   }
 }
